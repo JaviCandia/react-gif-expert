@@ -8,7 +8,6 @@ export const AddCategory = ({ onAddCategory }) => {
   };
 
   const onSubmit = (event) => {
-    console.log("SEARCH");
     event.preventDefault();
     const trimmedValue = inputValue.trim();
     if (trimmedValue.length <= 1) return;
